@@ -9,11 +9,16 @@ public class Carro {
     }
 
     void frear(){
-        if (velocidadeAtual > 5){
+        if (velocidadeAtual >= 5){
             velocidadeAtual -=5;
+        }
+        else {
+            velocidadeAtual = 0;
         }
     }
 
-    //frear 5 em 5, não diminuir velocidade abaixo de 0
+    public String toString(){
+        return "Velocidade atual é: " + velocidadeAtual + " Km/h.";
+    }
 }
 
