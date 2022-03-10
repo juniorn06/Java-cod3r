@@ -8,7 +8,7 @@ public class Programa {
 
     public static void main(String[] args) {
 
-        Civic civic  = new Civic();
+        Carro civic  = new Civic();
 
         civic.acelerar();
         System.out.println(civic);
@@ -19,7 +19,10 @@ public class Programa {
         civic.acelerar();
         System.out.println(civic);
 
-        Carro ferrari = new Ferrari(400);
+        Ferrari ferrari = new Ferrari(400);
+        ferrari.ligarTurbo();
+        ferrari.ligarAr();
+        ferrari.desligarAr();
 
         ferrari.acelerar();
         ferrari.frear();
