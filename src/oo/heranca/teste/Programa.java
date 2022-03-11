@@ -24,6 +24,8 @@ public class Programa {
         ferrari.ligarAr();
         ferrari.desligarAr();
 
+        System.out.println(ferrari.velocidadeDoAr());
+
         ferrari.acelerar();
         ferrari.frear();
         System.out.println(ferrari);
