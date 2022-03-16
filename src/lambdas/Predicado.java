@@ -8,7 +8,7 @@ public class Predicado {
 
         Predicate<Produto> isCaro = prod -> (prod.preco * (1 - prod.desconto)) >= 750;
 
-        Produto produto = new Produto("Notebook", 3893.99, 0.1 5);
+        Produto produto = new Produto("Notebook", 3893.99, 0.15);
         System.out.println(isCaro.test(produto));
     }
 }
